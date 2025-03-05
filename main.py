@@ -77,7 +77,7 @@ def main():
                 if distance <= 100:
                     agent.applyForce(d.normalize())
                 else:
-                    agent.applyForce(d.normalize() * (distance/100))
+                    agent.applyForce(d.normalize() * (distance / 100))
                 if distance <= 2:
                     closest_food.recreate()
 
